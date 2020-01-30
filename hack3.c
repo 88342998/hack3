@@ -27,9 +27,12 @@ int main (void) {
 
   double planRemain;
   planRemain = 30 - planDay ;
+	
+ double averageDailyUsed;
+ averageDailyUsed= planUsed/planData;	
 
   printf("%lf days used, %lf days remaining\n", planDay, planRemain);
-
+  printf("Average Daily Used: %lf /day \n" , averageDailyUsed);
 
 
 	return 0;
